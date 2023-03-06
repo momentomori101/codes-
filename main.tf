@@ -1,7 +1,7 @@
 provider "vsphere" {
   user           = "USER"
   password       = "PASSWORD"
-  vsphere_server = "172.16.16.201"
+  # vsphere_server = "172.16.16.201"
 }
 
 resource "vsphere_virtual_machine" "example" {
